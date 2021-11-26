@@ -2,8 +2,12 @@ var centuryDigitsCC = CC => {
     return ((CC / 4) - 2 * CC - 1);
   }
 
-var yearDigitsYY = YY => {
+  var yearDigitsYY = YY => {
     return ((5 * YY / 4));
+  }
+
+var month = MM => {  
+    return (26 * (MM + 1) / 10);
   }
   //alert("Enter Your date of Birth");
   var DD = parseInt(prompt("Enter the day you were born:"));

@@ -1,5 +1,5 @@
 # moringa-ip-week-two  
-Demonstarte data types, Array, writing functions, control flow, and operators.    
+Demonstarte how to use data types, Array, writing functions, control flow, and operators.    
 My Projects at moringa school, 26.11.2021  
 By Jimmy Njuguna kiarie  
   

@@ -9,8 +9,8 @@ Below is the link to the website
   
 Technologies Used  
 HTML Tags to style the page  
-CSS also used to style the formats and appearance 
-Javascript to c
+CSS also used to style the formats and appearance  
+Javascript to control the flow of our code  
    
 Support and contact details  
 jimmyn.kiarie@gmail.com  

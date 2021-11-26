@@ -1,9 +1,10 @@
 # moringa-ip-week-two  
-My First Web Page  
-My Projects at moringa school, 13.10.2021  
+Demonstarte data types, Array, writing functions, control flow, and operators.    
+My Projects at moringa school, 26.11.2021  
 By Jimmy Njuguna kiarie  
+  
 Description  
-This is my IP for week one at Moringa school  
+This is my IP for week two at Moringa school  
 Below is the link to the website  
   
 Technologies Used  

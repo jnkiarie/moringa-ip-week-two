@@ -11,5 +11,19 @@
     var d = Math.floor((centuryDigitsCC(CC) + yearDigitsYY(YY) + month(MM) + DD)%7);
     
     
+    const maleNames =['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
+    const femaleNames =['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
+    let akanName = "";
     
+    if (gender == "m" || "M"){
+    akanName = maleNames[d];
+    alert("Your Akan Name is: " +akanName);
+    }
+    else if (gender == "f" || "F"){
+    akanName = femaleNames[d];
+    alert("Your Akan Name is: " +akanName);
+    }
+    else{
+    alert("Enter a Valid Gender M or F");
+    }
     

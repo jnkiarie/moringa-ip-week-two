@@ -7,14 +7,13 @@ var centuryDigitsCC = CC => {
   }
 
 var month = MM => { 
-    if (MM < 0 || MM > 31) {
-        alert("Enter a Valid month!!")
-      }  
     return (26 * (MM + 1) / 10);
   }
   //alert("Enter Your date of Birth");
   var DD = parseInt(prompt("Enter the day you were born:"));
   var MM = parseInt(prompt("Enter the month you were born:"));
+  if (MM < 0 || MM > 31) {
+    alert("Enter a Valid month!!");
   var year = (prompt("Enter the year you were born:"))
   var gender = prompt("Enter your Gender M or F");
   var centuryyear = year.split("");

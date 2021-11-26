@@ -6,7 +6,10 @@ var centuryDigitsCC = CC => {
     return ((5 * YY / 4));
   }
 
-var month = MM => {  
+var month = MM => { 
+    if (MM < 0 || MM > 31) {
+        alert("Enter a Valid month!!")
+      }  
     return (26 * (MM + 1) / 10);
   }
   //alert("Enter Your date of Birth");

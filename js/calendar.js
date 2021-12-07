@@ -16,7 +16,7 @@ var DD = parseInt(prompt("Enter the day you were born:"));
         DD = parseInt(prompt("Enter the Day you were born:"));
   }
 var MM = parseInt(prompt("Enter the month you were born:"));
-    while (MM < 0 || MM > 31) {
+    while (MM < 0 || MM > 12) {
         alert("Enter a Valid month!!");
         MM = parseInt(prompt("Enter the month you were born:"));
   }
